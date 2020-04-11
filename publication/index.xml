@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Juan Manuel Coria</title>
+    <link>https://juanmc2005.github.io/publication/</link>
+      <atom:link href="https://juanmc2005.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Juan Manuel Coria</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://juanmc2005.github.io/images/icon_hua83eddfdad02d51e6863fadf153c381f_221711_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://juanmc2005.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>pyannote.audio: neural building blocks for speaker diarization</title>
+      <link>https://juanmc2005.github.io/publication/bredin-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://juanmc2005.github.io/publication/bredin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification</title>
+      <link>https://juanmc2005.github.io/publication/coria-2020-comparison/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://juanmc2005.github.io/publication/coria-2020-comparison/</guid>
+      <description>&lt;h2 id=&#34;quick-usage&#34;&gt;Quick Usage&lt;/h2&gt;
+&lt;p&gt;Apply our best pretrained model with just a couple lines of Python code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import torch
+model = torch.hub.load(&#39;pyannote/pyannote-audio&#39;, &#39;emb&#39;)
+
+# extract embeddings
+emb1 = model({&#39;audio&#39;: &#39;/path/to/file1.wav&#39;})
+emb2 = model({&#39;audio&#39;: &#39;/path/to/file2.wav&#39;})
+
+# compute distance between embeddings
+from scipy.spatial.distance import cdist
+import numpy as np
+distance = np.mean(cdist(emb1, emb2, metric=&#39;cosine&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;GitHub Repo&lt;/em&gt; button above for more details.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
