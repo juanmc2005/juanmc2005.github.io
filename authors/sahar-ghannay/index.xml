@@ -5,7 +5,7 @@
     <link>https://juanmc2005.github.io/authors/sahar-ghannay/</link>
       <atom:link href="https://juanmc2005.github.io/authors/sahar-ghannay/index.xml" rel="self" type="application/rss+xml" />
     <description>Sahar Ghannay</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Juan Manuel Coria</copyright><lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Juan Manuel Coria</copyright><lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://juanmc2005.github.io/images/icon_hua83eddfdad02d51e6863fadf153c381f_221711_512x512_fill_lanczos_center_2.png</url>
       <title>Sahar Ghannay</title>
@@ -15,9 +15,12 @@
     <item>
       <title>A Comparison of Metric Learning Loss Functions for End-To-End Speaker Verification</title>
       <link>https://juanmc2005.github.io/publication/coria-2020-comparison/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://juanmc2005.github.io/publication/coria-2020-comparison/</guid>
-      <description>&lt;h2 id=&#34;quick-usage&#34;&gt;Quick Usage&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;p&gt;This paper was accepted at 
+&lt;a href=&#34;https://irdta.eu/slsp2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SLSP 2020&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-usage&#34;&gt;Quick Usage&lt;/h2&gt;
 &lt;p&gt;Apply our best pretrained model with just a couple lines of Python code:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import torch
 model = torch.hub.load(&#39;pyannote/pyannote-audio&#39;, &#39;emb&#39;)
@@ -31,12 +34,15 @@ from scipy.spatial.distance import cdist
 import numpy as np
 distance = np.mean(cdist(emb1, emb2, metric=&#39;cosine&#39;))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;GitHub Repo&lt;/em&gt; button above for more details.
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A Metric Learning Approach to Misogyny Categorization</title>
+      <link>https://juanmc2005.github.io/publication/coria-2020-acl/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://juanmc2005.github.io/publication/coria-2020-acl/</guid>
+      <description></description>
     </item>
     
   </channel>
